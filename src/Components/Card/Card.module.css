@@ -1,0 +1,81 @@
+.Card {
+   height: 100%;
+   overflow: scroll;
+   overflow-x: hidden;
+   display: grid;
+}
+
+.Head {
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 15px;
+   border-radius: 5px;
+   text-align: center;
+   background: rgb(169, 169, 169);
+   color: white;
+}
+
+p {
+   margin: 0;
+   display: inline-block;
+}
+
+.Head h2 {
+   margin: 5px 0 0;
+}
+
+.subTitle {
+   width: 100%;
+   padding: 10px;
+   font-size: 14px;
+   background: rgb(169, 169, 169);
+   border-radius: 5px 5px 0 0;
+   font-weight: 500;
+   text-align: center;
+   justify-self: center;
+   align-self: center;
+}
+
+.subTitle p{
+   width: 60%;
+}
+
+.cardList {
+   border-radius: 0 0  5px 5px;
+   background: rgb(169, 169, 169);
+   overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent; 
+}
+
+.cardList li {
+   width: 100%;
+   padding: 05px 15px;
+   list-style: none;
+   font-size: 14;
+   border-bottom: 1px solid white;
+}
+
+/* li:first-child {
+} */
+
+li:last-child {
+   border-bottom: none;
+}
+
+li span {
+   font-weight: 500;
+}
+
+.list {
+   font-size: 14px;
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-column-gap: 8px;
+   justify-content: start;
+}
+
+

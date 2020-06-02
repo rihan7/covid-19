@@ -1,0 +1,36 @@
+.card {
+   width: 100%;
+   padding: 15px;
+   background-color: #f1f3f6;
+   border-radius: 10px;
+   box-shadow: inset 0 0 15px rgba(55, 84, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+}
+
+
+
+.card p:nth-child(1), 
+.card p:nth-child(3) {
+   font-size: 16px;
+   color: rgb(107, 107, 107);
+}
+
+h1 {
+   color: rgb(61, 61, 61);
+}
+
+.yellow {
+   background: linear-gradient(135deg, #e6ee10 0%, #f5f992 100%) !important;
+   color: rgb(107, 107, 107);
+}
+
+.red {
+   background: linear-gradient(135deg, #ee1010 0%, rgb(252, 128, 128) 100%);
+}
+
+.green {
+   background: linear-gradient(135deg, #41ee10 0%, rgba(241,255,236,1) 100%);
+}

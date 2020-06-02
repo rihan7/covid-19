@@ -1,0 +1,24 @@
+.chart {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+select {
+   width: auto;
+   margin: 20px;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+
+.cardList {
+   margin: 2rem;
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   grid-gap: 1.5rem;
+   justify-content: center;
+}
+
